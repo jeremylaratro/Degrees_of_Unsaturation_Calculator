@@ -10,7 +10,7 @@ def dou():
         degrees_of_unsaturation_bond = (ring+pi)
         print("Degrees of Unsaturation: " + str(degrees_of_unsaturation_bond))
     if ans == 'b':
-        print("Enter the number of Carbons, Nitrogens, Hydrogen, and Halogens")
+        print("Enter the number of Carbons, Hydrogens, Nitrogens, and Halogens")
         c = int(input("\nCarbons: "))
         h = int(input("\nHydrogens: "))
         n = int(input("\nNitrogen: "))
